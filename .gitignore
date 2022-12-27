@@ -1,0 +1,6 @@
+.obsidian
+.ipynb_checkpoints
+*.ipynb
+content/
+venv/
+automations/
