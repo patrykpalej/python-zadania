@@ -38,7 +38,7 @@ Wewnątrz tej pętli powinny wydarzyć się następujące akcje:
 - Kiedy wszystkie postacie dokonają wyboru dopiero wtedy należy je przemieścić
 - Walka postaci (o ile są od siebie odpowiednio blisko, np. 3 jednostki odległości)
 
-W celu odbycia starć pomiędzy postaciami wklej poniższy kod:
+W celu odbycia starć pomiędzy postaciami (ostatni punkt z powyższej listy) wklej poniższy kod:
 ```
 clash_pairs = find_all_pairs_about_to_clash(humans, zombies)
 

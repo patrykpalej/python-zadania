@@ -45,7 +45,7 @@ Ponadto klasy dziedziczące powinny mieć metodę `choose_new_position()` (każd
 Logika obu klas postaci niech będzie następująca:
 - Wyznaczyć wszystkie wektory prowadzące od mojego położenia do położeń moich przeciwników
 - Znormalizować te wektory do długości 1. Oznacza to, że powinny dalej wskazywać w tym samym kierunku ale niech będą tak przeskalowane, że długość każdego to dokładnie 1
-- Każdy ze znormalizowanych wektorów przemnożyć przez wagę określającą w jakim stopniu chcę iść w kierunku danego przeciwnika. Założmy, że suma moich atrybutów *power* oraz *n_killed / n_infected* to moje "punkty walki". Podobnie dla moich przeciwników. To jaką przewagę mam nad przeciwnikiem jest proporcjonalne do tego jak bardzo chcę podążać w jego kierunku
+- Każdy ze znormalizowanych wektorów przemnożyć przez wagę określającą w jakim stopniu chcę iść w kierunku danego przeciwnika. Załóżmy, że suma moich atrybutów *power* oraz *n_killed / n_infected* to moje "punkty walki". Podobnie dla moich przeciwników. To jaką przewagę mam nad przeciwnikiem jest proporcjonalne do tego jak bardzo chcę podążać w jego kierunku
 - Zsumować wektory wskazujące na poszczególnych przeciwników. Następnie znormalizować wynik oraz przemnożyć go przez atrybut `velocity`
 
 Powyższy algorytm mógłby oczywiście różnić się dla poszczególnych klas postaci, ale niech dla uproszczenia będzie taki sam. 

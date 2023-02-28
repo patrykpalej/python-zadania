@@ -11,7 +11,7 @@ result = [(0, 1), (2, 1)]   # człowiek nr 0 i zombie nr 1, człowiek nr 2 i zom
 ```
 
 ---
-2. Zaimplementuj funkcję `calculate_n_of_rivals()` w pliku `fight_functions.py`. Powinna ona działać w następujący sposób. Niech funkcja ta przyjmuje trzy argumenty: dwie listy (`humans`, `zombies`) z poprzedniego zadania oraz output funkcji z poprzedniego zadania. Niech zwraca informację o liczbie rywali z jakimi ma zmierzyć się każda postać. Format outputu powinna być jak w poniższym przykładzie:
+2. Zaimplementuj funkcję `calculate_n_of_rivals()` w pliku `fight_functions.py`. Powinna ona działać w następujący sposób. Niech funkcja ta przyjmuje trzy argumenty: dwie listy (`humans`, `zombies`) z poprzedniego zadania oraz output funkcji z poprzedniego zadania. Niech zwraca informację o liczbie rywali z jakimi ma zmierzyć się każda postać. Forma outputu powinna być jak w poniższym przykładzie:
 
 ```
 humans = [Human(x=1, y=0), Human(x=10, y=40), Human(x=0, y=1)]
@@ -57,7 +57,7 @@ Przyjmij że dla każdej walki decyduje to, dla której postaci następująca me
 - `victories` - output funkcji z zadania 3
 - `loosers` - output funkcji z zadania 3
 
-i niczego nie zwracać. Zamiast tego będzie modyfikować listy `humans` i `zombies` na podstawie wyników walk.
+i niczego nie zwracać. Zamiast tego będzie modyfikować listy `humans` i `zombies` na podstawie wyników walk:
 - człowiek, który przegrał zamienia się w zombie. Jego atrybuty będą mieć dotychczasową wartość, jedynie `n_infected` będzie równe 0 
 - zombie który przegrał ginie
 - każda postać która wygrała starcie dostaje +1 punkt doświadczenia
