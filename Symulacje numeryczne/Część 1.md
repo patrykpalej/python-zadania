@@ -38,7 +38,7 @@ Następnie utwórz w tej lokalizacji projekt PyCharma wybierając jako środowis
 - power
 - n_killed / n_infected
 
-Niech w pliku common.py znajdzie się klasa bazowa, po której będą dziedziczyć klasy Human oraz Zombie. W klasie bazowej powinna znaleźć się metodą `move()`, która będzie przyjmować jako argumenty `delta_x` oraz `delta_y`. O takie odległości należy przemieścić człowieka (zmienić jego współrzędne)
+Niech w pliku common.py znajdzie się klasa bazowa, po której będą dziedziczyć klasy Human oraz Zombie. W klasie bazowej powinny znaleźć się wspólne dla obu klas atrybuty a także metoda `move()`, która będzie przyjmować jako argumenty `delta_x` i `delta_y`. O takie odległości należy przemieścić postać (zmienić jej współrzędne).
 
 Ponadto klasy dziedziczące powinny mieć metodę `choose_new_position()` (każda klasa swoją). Niech te metody wyznaczają oraz zwracają `delta_x` i `delta_y`, które będą użyte w `move()`. W każdej klasie `choose_new_position()` powinna przyjmować jako argument listę instancji klasy przeciwnika.
 
