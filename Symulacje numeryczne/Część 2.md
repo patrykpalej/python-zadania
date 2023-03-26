@@ -34,6 +34,7 @@ Następnie napisz pętlę nieskończoną, z której wyjdziemy pod jednym z poni�
 
 Wewnątrz tej pętli powinny wydarzyć się następujące akcje:
 - Inkrementacja licznika iteracji
+- Wizualizacja aktualnego stanu symulacji wcześniej napisaną funkcją
 - Każda z postaci powinna wybrać dokąd przemieści się w kolejnej iteracji
 - Kiedy wszystkie postacie dokonają wyboru dopiero wtedy należy je przemieścić
 - Walka postaci (o ile są od siebie odpowiednio blisko, np. 3 jednostki odległości)
