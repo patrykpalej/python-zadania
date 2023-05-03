@@ -16,19 +16,19 @@ result = [(0, 1), (2, 1)]   # człowiek nr 0 i zombie nr 1, człowiek nr 2 i zom
 ```
 humans = [Human(x=1, y=0), Human(x=10, y=40), Human(x=0, y=1)]
 zombies = [Zombie(x=30, y=50), Zombie(x=0, z=0)]
-clash_pairs = [(0, 1), (2, 1)]
+clashing_pairs = [(0, 1), (2, 1)]
 
 result = {"humans": [1, 0, 1], "zombies": [0, 2]}
 ```
 
-Podpowiedź: zacznij od zainicjalizowania wynikowego słownika z listami samych zer a następnie iterując po `clash_pairs` inkrementuj stopniowo poszczególne elementy list w tym słowniku
+Podpowiedź: zacznij od zainicjalizowania wynikowego słownika z listami samych zer a następnie iterując po `clashing_pairs` inkrementuj stopniowo poszczególne elementy list w tym słowniku
 
 
 ---
 3. Napisz funkcję `carry_out_clashes()`. Powinna ona przyjmować następujące argumenty:
 - `humans`  - lista instancji klasy `Human`
 - `zombies` - lista instancji klasy `Zombie`
-- `clash_pairs` - output funkcji z zadania 1
+- `clashing_pairs` - output funkcji z zadania 1
 - `rivals_number` - output funkcji z zadania 2
 
 oraz zwracać:

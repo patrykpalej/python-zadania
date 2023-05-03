@@ -41,12 +41,12 @@ Wewnątrz tej pętli powinny wydarzyć się następujące akcje:
 
 W celu odbycia starć pomiędzy postaciami (ostatni punkt z powyższej listy) wklej poniższy kod:
 ```
-clash_pairs = find_all_pairs_about_to_clash(humans, zombies)
+clashing_pairs = find_all_pairs_about_to_clash(humans, zombies)
 
-rivals_number = calculate_n_of_rivals(humans, zombies, clash_pairs)
+rivals_number = calculate_n_of_rivals(humans, zombies, clashing_pairs)
 
 victories, loosers = carry_out_clashes(
-    humans, zombies, clash_pairs, rivals_number, t)
+    humans, zombies, clashing_pairs, rivals_number, t)
 
 implement_results(humans, zombies, victories, loosers)
 ```
