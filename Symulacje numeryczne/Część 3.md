@@ -36,7 +36,7 @@ oraz zwracać:
 ```
 {'humans': [0, 0, 0, 1, 0], 'zombies': [1, 0, 2, 0, 0]}
 ```
-gdzie pod kluczami 'humans' i 'zombies' znajdują się listy odpowiadające listom instancji tych klas przy czym wartości w tej liście oznaczają ile zwycięstw odniosła dana postać w tej iteracji.
+gdzie pod kluczami 'humans' i 'zombies' znajdują się listy odpowiadające indeksom instancji tych klas przy czym wartości w tej liście oznaczają ile zwycięstw odniosła dana postać w tej iteracji.
 
 - loosers - słownik o następującej strukturze:
 ```
