@@ -15,7 +15,7 @@ result = [(0, 1), (2, 1)]   # człowiek nr 0 i zombie nr 1, człowiek nr 2 i zom
 
 ```
 humans = [Human(x=1, y=0), Human(x=10, y=40), Human(x=0, y=1)]
-zombies = [Zombie(x=30, y=50), Zombie(x=0, z=0)]
+zombies = [Zombie(x=30, y=50), Zombie(x=0, y=0)]
 clashing_pairs = [(0, 1), (2, 1)]
 
 result = {"humans": [1, 0, 1], "zombies": [0, 2]}
